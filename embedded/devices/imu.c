@@ -8,8 +8,8 @@
 #include <inttypes.h>
 #include <pthread.h>
 #include <unistd.h>
-#include "imu.h"
-#include "i2c.h"
+#include "../include/imu.h"
+#include "../include/i2c.h"
 
 //Global Variables
 IMU_data * data;

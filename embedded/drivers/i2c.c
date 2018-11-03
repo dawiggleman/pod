@@ -4,7 +4,7 @@
 * Based on work by: gijs
 */
 
-#include "i2c.h"
+#include "../include/i2c.h"
 
 int i2c_begin(i2c_settings *i2c) {
 	char filename[20];
